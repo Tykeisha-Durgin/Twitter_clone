@@ -1,0 +1,163 @@
+/*
+Common
+****************************/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.content {
+  max-width: 600px;
+  min-height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/*
+Main
+*************************************/
+
+.main {
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  border-left: 1px solid rgb(235, 238, 240);
+  border-right: 1px solid rgb(235, 238, 240);
+}
+
+.main .main-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(235, 238, 240);
+}
+
+.main .main-header .logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.main .main-header h1 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/*
+Post
+****************************/
+
+.post_form {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post_form input {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.post_form textarea {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.posts ul {
+  padding: 0;
+}
+
+.posts li {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  list-style: none;
+  bottom: auto;
+  border-bottom-width: 1px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  gap: 1rem;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+
+  right: 30px;
+  position: absolute;
+}
+.menu {
+  width: 50%;
+}
+
+.posts li menu {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 13px;
+}
+
+.post li .name_body .like-button {
+  height: 20%;
+  position: absolute;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+  position: absolute;
+  right: 61px;
+}
+
+.tweet_post {
+  display: flex;
+}
+/* .posts li .logo {
+  width: 10%;
+} */
+.logo {
+  width: 10%;
+}
+.logo img {
+  width: 100%;
+}
+
+/* .posts li .logo img {
+  width: 100%;
+} */
+
+.posts li .name_body {
+  flex: basis 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+  color: #ccc;
+}
+
+.post li img,
+svg {
+  height: 10%;
+  position: absolute;
+  padding-bottom: 10%;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
