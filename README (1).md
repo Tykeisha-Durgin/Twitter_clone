@@ -20,3 +20,4 @@ Created virtual environment and activated it for better sharing of project file.
 
 ## How to use
 clone it in your PC and use django command to run and use link to open and check the project.
+https://twitterclone-durgin.herokuapp.com/
